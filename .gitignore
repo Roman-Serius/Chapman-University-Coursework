@@ -27,5 +27,56 @@ Builds/
 *.hw/
 *.sim/
 
+# Unity generated folders/files
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Uncomment if using Asset Store Tools plugin you want to ignore
+# /[Aa]ssets/AssetStoreTools*
+
+# Visual Studio / MonoDevelop / Rider
+.vs/
+/.idea/
+/*.csproj
+/*.unityproj
+/*.sln
+/*.suo
+/*.tmp
+/*.user
+/*.userprefs
+/*.pidb
+/*.booproj
+/*.svd
+/*.pdb
+/*.mdb
+/*.opendb
+/*.VC.db
+
+# Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Crash reports, system
+sysinfo.txt
+
+# Builds and packages you don’t need in version control
+*.apk
+*.aab
+*.app
+*.unitypackage
+*.unitypackage.meta
+
+# OSX system files
+*.DS_Store
+
+
 # Hidden Classes
 CPSC_298_3DPrinting/
