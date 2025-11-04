@@ -1,0 +1,9 @@
+Soren Marius
+002456139
+Marius@chapman.edu
+GAME-245-02
+Assignment1
+All scripts are located on a scripts object.
+Game Manager calls methods from other classes to start the countdown, also hands quitting.
+Countdown calls methods from UpdateText to change the text within the countdown coroutine.
+Start Game button references itself and sets it to inactive on click.
