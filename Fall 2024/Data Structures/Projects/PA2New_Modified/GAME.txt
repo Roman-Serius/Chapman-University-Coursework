@@ -1,0 +1,31 @@
+x x x x x 
+b x c k m 
+x x x x x 
+c x w c x 
+x x m x g 
+x x x x x 
+m c m x x 
+x c k x m 
+k g m x x 
+k m x g k 
+Mario is starting in position: x x x x x 
+g g k x m 
+k x m m x 
+x x x g b 
+m x x x w 
+x x x x x 
+x x c g k 
+g m m c x 
+x x x k b 
+x x c x m 
+Mario is starting in position: x x x x x 
+k b x m w 
+x x k g x 
+x x g k k 
+m k m c m 
+x x x x x 
+g m x x x 
+k m x x m 
+g x x c x 
+g m g c x 
+Mario is starting in position: 
