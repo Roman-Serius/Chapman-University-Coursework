@@ -1,0 +1,61 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 .SFNS-Bold;\f2\fnil\fcharset0 .SFNS-Regular;
+\f3\fnil\fcharset0 .AppleSystemUIFontMonospaced-Regular;\f4\froman\fcharset0 TimesNewRomanPSMT;}
+{\colortbl;\red255\green255\blue255;\red14\green14\blue14;}
+{\*\expandedcolortbl;;\cssrgb\c6700\c6700\c6700;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \
+Course: GAME 245: Unity Programming\
+Assignment: Programming Assignment #4 States Pattern\
+Author: Soren Marius\
+Marius@chapman.edu \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f1\b\fs34 \cf2 Project Overview
+\f2\b0\fs28 \
+\
+This Unity project implements a 
+\f1\b Farming State Machine
+\f2\b0  that simulates the life cycle stages of a plant, using the State Design Pattern. The program allows for various state transitions controlled by UI elements, enabling a visual demonstration of state transitions within a plant\'92s lifecycle.\
+\
+
+\f1\b\fs34 File Structure
+\f2\b0\fs28 \
+\
+\pard\tqr\tx100\tx260\li260\fi-260\sl324\slmult1\sb240\partightenfactor0
+\cf2 	\'95	
+\f1\b FarmingStateManager.cs
+\f2\b0 : The main script that manages the state transitions and UI interactions. It initializes and controls the different plant states, applying transitions based on user actions.\
+	\'95	
+\f1\b PlantBaseState.cs
+\f2\b0 : An abstract base class for different plant states. This defines essential methods for entering, updating, and exiting each state.\
+	\'95	
+\f1\b UIManager.cs
+\f2\b0 : Manages the UI, including button interactions that allow users to control the state machine\'92s flow. UIManager includes methods to enable/disable buttons and panels.\
+	\'95	
+\f1\b Concrete State Classes
+\f2\b0 :\
+\pard\tqr\tx500\tx660\li660\fi-660\sl324\slmult1\sb240\partightenfactor0
+\cf2 	\'95	
+\f3 EmptyState.cs
+\f2 , 
+\f3 SeedState.cs
+\f2 , 
+\f3 SeedlingState.cs
+\f2 , 
+\f3 PlantState.cs
+\f2 , and 
+\f3 DeadState.cs
+\f2  \'97 each representing a unique stage in the plant\'92s life cycle and handling actions specific to each state.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f1\b\fs34 \cf2 How to Use
+\f2\b0\fs28 \
+\
+\pard\tqr\tx260\tx420\li420\fi-420\sl324\slmult1\sb240\partightenfactor0
+
+\f4 \cf2 Hit Buttons to control the game, at any given time only the buttons available have a chance of affecting the game. Hitting start will put it into an empty state. From there you can only Plant to plant a seed. The seed is a dormant state that will on it\'92s own neither grow nor die everytime the timer reaches 0. When the seed. is watered and the timer reaches 0 it will become a seedling. If a seedling is watered and it reaches 0 it will enter the plant state, and watering a plant will keep it alive. However if the timer reaches 0 and the plant hasn\'92t been watered as a seedling or as a plant it will die. At any time hitting clear will clear the plant returning to an empty state. And if you hit harvest while the plant is in full plant state the harvest counter will go up by one. (Also use the quit button to quit and info will bring up the UML.)}
