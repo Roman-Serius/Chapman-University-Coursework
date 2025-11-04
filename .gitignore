@@ -26,3 +26,6 @@ Builds/
 *.cache/
 *.hw/
 *.sim/
+
+# Hidden Classes
+CPSC_298_3DPrinting/
