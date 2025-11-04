@@ -1,0 +1,28 @@
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# C/C++ builds
+*.exe
+*.out
+*.o
+
+# Python
+__pycache__/
+*.pyc
+
+# Unity
+Library/
+Temp/
+Logs/
+Builds/
+
+# Vivado
+*.jou
+*.log
+*.runs/
+*.cache/
+*.hw/
+*.sim/
