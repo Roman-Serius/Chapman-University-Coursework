@@ -77,6 +77,15 @@ sysinfo.txt
 # OSX system files
 *.DS_Store
 
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
 
 # Hidden Classes
 CPSC_298_3DPrinting/
