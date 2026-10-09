@@ -1,5 +1,4 @@
 Soren Marius
-
 Marius@chapman.edu
 CPSC-350-01
 PA4: Genetic Palindromes

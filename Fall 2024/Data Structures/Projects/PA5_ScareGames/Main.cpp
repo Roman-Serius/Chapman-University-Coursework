@@ -1,6 +1,5 @@
 /*
  * Soren Marius
- * 
  * Marius@chapman.edu
  * CPSC-350-01
  * PA5: Scare Games
