@@ -89,3 +89,18 @@ sysinfo.txt
 
 # Hidden Classes
 CPSC_298_3DPrinting/
+
+# Compiled programs (macOS/Linux builds have no extension)
+myProgram
+output_executable
+a.out
+*.test
+
+# Xcode per-user state (keep .pbxproj / contents.xcworkspacedata)
+xcuserdata/
+
+# Archives of folders already in the repo
+*.zip
+
+# VS Code workspace files
+*.code-workspace
